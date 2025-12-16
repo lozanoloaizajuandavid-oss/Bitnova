@@ -1,0 +1,247 @@
+:root {
+        --fuenteHeading: 'Emblema One', cursive !important;
+        --fuenteParrafo: 'Emblema One', cursive !important;
+    
+        --light-blue: #ADD8E6; /* Azul claro */
+        --white: #FFFFFF; /* Blanco puro */
+        --bright-red: #FF6347; /* Rojo tomate */
+        --mint-green: #98FF98; /* Verde menta */
+        --deep-blue: #1E3A8A; /* Azul oscuro */
+        --light-gray: #D3D3D3; /* Gris claro */
+        --soft-yellow: #FFFACD; /* Amarillo suave */
+        --rich-purple: #6A0DAD; /* Púrpura intenso */
+        --navy-blue: #000080; /* Azul marino */
+        --coral: #FF7F50; /* Coral, un tono rojizo */
+         --sky-blue: #87CEEB; /* Azul cielo */
+         --color-rojo-intenso: #D32F2F;
+         --color-verde-lima: #76FF03;
+         --color-resalto-amarillo: #FFEB3B;
+         --color-fondo-oscuro: #121212;
+         --color-blanco-crema: #F5F5DC;
+         --color-beige: #D8C2A1;
+         --color-cafe-oscuro: #4E2A1C;
+         --color-cafe-medio: #6F4F28;
+         --color-blanco-crema: #F5F5DC;
+                --color-oro: #FFD700;
+                --color-cafe-claro: #9E7B4F;
+                --color-beige-oscuro: #D4B69A;
+           --color-blanco-perla: #F8F9FA;
+               --color-beige-suave: #EDE0D4;
+                        --color-rosa-palido: #FADADD;
+                        --color-celeste-pastel: #D8F3DC;
+                        --color-amarillo-vainilla: #FFF3B0;
+                      
+                             
+              
+              
+
+            
+    }
+    
+    html {
+        box-sizing: border-box;
+        font-size: 62.5%;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    
+    body {
+        font-family: var(--fuenteParrafo);
+        font-size: 1.6rem;
+        line-height: 2;
+    }
+    
+    /*globales*/
+    .contenedor {
+        max-width: 120rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    h1, h2, h3, h4 {
+        font-family: var(--fuenteHeading);
+        line-height: 50px;
+    }
+    h1 {
+        font-size: 8.8rem;
+    }
+    h2 {
+        font-size: 6rem;
+    }
+    h3 {
+        font-size: 3.5rem;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+    img {
+        max-width: 100%;
+    }
+    /*utilidades*/
+    
+    .no-margin {
+        margin: 0;
+    }
+    .no-padding {
+        padding: 0;
+    }
+    .centrar-texto {
+        text-align: center;
+    }
+    .header {
+        background-image: url(data:image/jpeg;base64,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);
+        height: 40rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    .header__texto {
+        position: relative;
+        text-align: center;
+        color: var(--soft-yellow); /* Color de texto en amarillo suave */
+        margin-top: 5rem;
+    }
+    @media(min-width: 768px) {
+        .header__texto {
+            margin-top: 1rem;
+        }
+    }
+    
+    .barra {
+        padding-top: 4rem;
+    }
+    @media(min-width: 768px) {
+        .barra {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    
+    .logo__nombre {
+        color: var(--soft-yellow); /* Logo nombre en amarillo suave */
+        font-weight: 400;
+        margin: none !important;
+    }
+    
+    .logo__bold {
+        color: var(--light-blue); /* Logo bold en azul claro */
+        font-weight: 1000px;
+    }
+    .logo {
+        height: 200px;
+    }
+    
+    @media(min-width: 768px) {
+        .navegacion {
+            display: flex;
+            gap: 2rem;
+        }
+    }
+    .navegacion__enlace {
+        display: block;
+        color: var(--white); /* Enlaces de navegación en verde menta */
+        text-align: center;
+        font-size: 3rem;
+    }
+    .frase {
+        color: var(--color --color-celeste-pastel); /* Enlaces de navegación en verde menta */
+
+
+    }
+    @media(min-width: 768px) {
+        .contenido_principal {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            column-gap: 4rem;
+        }
+    }
+    
+    .entrada {
+        border-bottom: 1px solid var(--white); /* Borde de entrada en blanco */
+        margin-bottom: 2rem;
+    }
+    
+    .entrada:last-of-type {
+        border: none;
+        margin-bottom: 0;
+    }
+    
+    .boton {
+        display: block;
+        color: var(--deep-blue); /* Color de texto en azul oscuro */
+        text-align: center;
+        padding: 1rem 3rem;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+    
+    @media(min-width: 768px) {
+        .boton {
+            display: inline-block;
+        }
+    }
+    
+    .boton--primario {
+        background-color: var(--soft-yellow); /* Fondo de botón primario en amarillo suave */
+    }
+    
+    .boton--secundario {
+        background-color: var(--soft-yellow); /* Fondo de botón secundario en amarillo suave */
+        width: 200px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+    
+    .cursos {
+        list-style: none;
+    }
+    
+    .widget-curso {
+        border-bottom: 2px solid var(--white); /* Borde de widgets en blanco */
+        margin-bottom: 2rem;
+    }
+    .widget-curso:last-of-type {
+        border-bottom: none;
+        margin-bottom: none;
+    }
+    
+    .widget-curso__label {
+        font-family: var(--fuenteHeading);
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    
+    .widget-curso__info {
+        font-family: var(--fuenteParrafo);
+        font-weight: 400;
+    }
+    .sidebar{
+        margin-top: 8rem;
+        margin-left: 15rem;
+    }
+    
+    .footer {
+        margin-top: 4rem;
+        background-color: var(--deep-blue); /* Fondo de pie de página en azul oscuro */
+        color: var(--white); /* Texto en blanco */
+    }
+    
+    /**sobre mi**/
+    
+    @media(min-width: 768px) {
+        .sobre_mi {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 2rem;
+        }
+    }
+    

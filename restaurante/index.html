@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Blog</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .logo__nombre {
+            font-family: 'Emblema One', cursive;
+        }
+        .entrada_imagen img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<!-- Encabezado de página -->
+<header class="header">
+    <div class="color_header" style="background-color: #23310180; width: 100%; height: 100%;">
+        <nav class="contenedor">
+            <div class="barra" style="padding-top: 4rem;">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre">
+                        Reservas Y
+                        <span class="logo__bold">
+                            Menus
+                        </span>
+                    </h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="quienes_somos.php" class="navegacion__enlace">QuiénesSomos</a>
+                    <a href="Servicios.php" class="navegacion__enlace">Servicios</a>
+                    <a href="Contactenos.php" class="navegacion__enlace">Contáctenos</a>
+                </nav>
+            </div>
+        </nav>
+        <div class="header__texto">
+            <h2 class="no-margin">Mundial del Sazón</h2>
+            <p class="no-margin frase">¿Antojo de algo delicioso? Ven a nuestro restaurante y prueba nuestros platos exclusivos. ¡La comida que te mereces está aquí!</p>
+        </div>
+    </div>
+</header>
+<!-- Termina encabezado de página -->
+
+<!-- Contenido principal de la página -->
+<div class="contenedor contenido_principal">
+    <main class="blog">
+        <h3>Descubre el Menú de Hoy:</h3>
+
+        <article class="entrada">
+            <div class="entrada_imagen">
+                <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Desayuno">
+            </div>
+
+            <div class="entrada_contenido">
+                <h4 class="no-margin">Desayuno Delicioso para Comenzar el Día</h4>
+                <p class="no-margin">¿Listo para empezar el día con energía? Nuestro desayuno está diseñado para que disfrutes de un sabor único y saludable. ¡Haz tu pedido y comienza el día de la mejor manera!</p>
+            </div>
+            <a href="informacion_restaurante/menus.php?filtro=DESAYUNO" class="boton boton--primario">Ver Menú de Desayunos 🥞</a>
+        </article>
+
+        <article class="entrada">
+            <div class="entrada_imagen">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0" alt="Almuerzo">
+            </div>
+
+            <div class="entrada_contenido">
+                <h4 class="no-margin">Almuerzo Energizante</h4>
+                <p class="no-margin">¡Es hora de recargar energías! Nuestro almuerzo está lleno de sabores frescos y nutritivos para que disfrutes al máximo de tu jornada. ¡No te lo puedes perder!</p>
+            </div>
+            <a href="informacion_restaurante/menus.php?filtro=ALMUERZO" class="boton boton--primario">Ver Menú de Almuerzos 🍽️</a>
+        </article>
+
+        <article class="entrada">
+            <div class="entrada_imagen">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Cena">
+            </div>
+
+            <div class="entrada_contenido">
+                <h4 class="no-margin">Cena Exquisita para Terminar el Día</h4>
+                <p class="no-margin">Termina el día con una cena deliciosa y reconfortante. El menú perfecto para relajarte y disfrutar de una comida que te hará sonreír. ¡No esperes más y haz tu reserva!</p>
+            </div>
+            <a href="informacion_restaurante/menus.php?filtro=CENA" class="boton boton--primario">Ver Menú de Cenas 🍲</a>
+        </article>
+
+    </main>
+    <aside class="sidebar">
+       
+          <ul class="cursos no-padding">
+            <li class="widget-curso">
+          
+           </li>
+
+            <li class="widget-curso">
+           
+            <h4 class="no-margin">Reservas</h4>
+           <img src="https://tse2.mm.bing.net/th?id=OIP.Cm59VWAbUEwPq4Epethw4QHaD4&pid=Api&P=0&h=180" alt="reserva">
+                
+                <a href="informacion_restaurante/mesas.php" class="boton boton--secundario">Su informacion 🍰</a>
+            </li>
+        </ul>
+    </aside>
+</div>
+<!-- Fin de contenido principal -->
+
+<footer class="footer">
+    <div class="contenedor">
+        <div class="barra" style="padding-top: 4rem;">
+            <a href="index.html" class="logo">
+                <h1 class="logo__nombre">
+                    Reservas y
+                    <span class="logo__bold">
+                        Menus
+                    </span>
+                </h1>
+            </a>
+
+            <nav class="navegacion">
+                <a href="quienes_somos.php" class="navegacion__enlace">QuiénesSomos</a>
+                <a href="Servicios.php" class="navegacion__enlace">Servicios</a>
+                <a href="Contactenos.php" class="navegacion__enlace">Contáctenos</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+        
+ 
+
